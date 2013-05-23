@@ -1,4 +1,5 @@
-    d=30
+puts "Введите диаметр круга:"   
+ d= gets.chomp.to_i
     @radius=d/2
     @pi=Math::PI
 
