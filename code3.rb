@@ -17,7 +17,7 @@ module Task3
       Array.new(d, "  ")
     end
 
-    circle_coord=@arr.uniq
+    circle_coord=@arr
     circle_coord.each do |elem|
       a[elem[:x]][elem[:y]]="||"
     end
@@ -25,4 +25,4 @@ module Task3
       puts value.join("")
     end
   end #end task_3
-end
+end  #end Task3
