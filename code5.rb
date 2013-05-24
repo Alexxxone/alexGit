@@ -28,7 +28,7 @@ class All
 	end
 
 	def task_4
-		hash = {:hash2 => {1 => :X},:hash1 => {"a" => :Z}}
+		hash = {:hash2 => {1 => :X},:hash1 => {:a => :Z}}
 		key = gets.chomp
 		result_test4 = search_by_hash_or_array(hash,key) 
 		puts "Значение = "+result_test4.to_s
